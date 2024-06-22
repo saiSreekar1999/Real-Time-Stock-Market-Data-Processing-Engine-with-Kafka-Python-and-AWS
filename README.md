@@ -16,7 +16,7 @@ Amazon Athena Analysis: Enables real-time querying and analysis of the stock dat
 # Architecture
 Stock Data Simulation (Python) -> Kafka Producer -> Kafka Cluster -> Kafka Consumer -> S3 -> Glue Crawler -> Athena
 
-#Prerequisites
+# Prerequisites
 AWS Account (with S3, Glue, and Athena access)
 EC2 Instance (for Kafka deployment)
 Python 3.x

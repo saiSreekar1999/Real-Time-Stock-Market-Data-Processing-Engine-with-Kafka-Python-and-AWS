@@ -12,15 +12,18 @@ Kafka Streaming: Apache Kafka handles the real-time data stream, ensuring reliab
 S3 Data Storage: Stock data is continuously written to Amazon S3 in a structured format.
 AWS Glue Crawler: Automatically discovers and catalogs the schema of the S3 data.
 Amazon Athena Analysis: Enables real-time querying and analysis of the stock data using SQL.
-Architecture
+
+# Architecture
 Stock Data Simulation (Python) -> Kafka Producer -> Kafka Cluster -> Kafka Consumer -> S3 -> Glue Crawler -> Athena
-Prerequisites
+
+#Prerequisites
 AWS Account (with S3, Glue, and Athena access)
 EC2 Instance (for Kafka deployment)
 Python 3.x
 Kafka Python Client
 AWS CLI (configured with credentials)
-Installation and Setup
+
+# Installation and Setup
 Kafka Deployment: Follow the instructions in kafka_setup.sh to deploy Kafka on the EC2 instance.
 Python Environment: Install required Python libraries using pip install -r requirements.txt.
 AWS Configuration: Configure AWS CLI with your credentials and set up the S3 bucket.

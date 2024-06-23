@@ -25,9 +25,11 @@ AWS CLI (configured with credentials)
 
 # Installation and Setup
 Kafka Deployment: Follow the instructions in kafka_setup.sh to deploy Kafka on the EC2 instance.
+
 Python Environment: Install required Python libraries using pip install -r requirements.txt.
+
 AWS Configuration: Configure AWS CLI with your credentials and set up the S3 bucket.
-Usage
+
 Start Kafka: Execute kafka_start.sh on the EC2 instance.
 Run Producer: Execute producer.py to simulate and send stock data to Kafka.
 Run Consumer: Execute consumer.py to consume data from Kafka and store it in S3.

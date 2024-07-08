@@ -1,4 +1,4 @@
-# RealTimeStockMarketDataProcessingEnginewithKafkaPythonandAWS
+# Real-Time Stock Market DataProcessing Engine with Kafka Python and AWS
 Realtime stock market data pipeline using Kafka and AWS. Python scripts simulate streaming stock data, ingested by Kafka, then stored in S3. AWS Glue and Athena enable analysis of the live data.
 
 # RealTime Stock Market Data Processing Pipeline
